@@ -1,0 +1,15 @@
+.header {
+    max-width: 700px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #fffacd;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+.header__h1 {
+    color: #111;
+    font-size: 35px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/resultbox.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Cryptomat</h1>
+    </header>
+    <main class="main">
+        <form class="form js-form">
+            <label>
+                <span class="form-label">Wybierz kryptowalute która chcesz zamienić </span>
+                <select required class="form__input js-currency" name="conventer">
+                    <option value="Bitcoin">Bitcoin</option>
+                    <option value="Etherum">Etherum</option>
+                    <option value="Wando">Litecoin</option>
+                </select>
+            </label>
+            <label>
+                <span class="form__label">Wpisz ilość</span>
+                <input class="form__input js-quantity" placeholder="Wpisz ilośc kryptowaluty" type="number"
+                    name="currencyQuantity" step="any" min="0.001" required></input>
+            </label>
+            <button class="form__button">Przelicz</button>
+
+        </form>
+        <div class="resultBox">
+            <p class="resultBox__paragraph--result"><span class="js-results"></span></p>
+            <p class="resultBox__paragraph">Kursy dostępne z dnia 12.01.2020</p>
+        </div>
+
+    </main>
+</body>
+
+</html>

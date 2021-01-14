@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+*, ::before , ::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:  100px auto;
+    padding: 25px;
+    background-image: url(../img/money.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Yusei Magic', sans-serif;
+}

@@ -1,0 +1,44 @@
+.form {
+    color: #000000;
+    max-width: 700px;
+    margin: 100px auto;
+    background-color:  #fffacd;;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.form__label {
+    max-width: 700px;
+    width: 100%;
+    padding: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+.form__input {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    text-align: center;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+
+.form__input:focus {
+    background-color: #206b24;
+}
+
+.form__button {
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+}
